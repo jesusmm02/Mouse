@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadricula {
+    display: grid;
+    background-color: #272626;
+    grid-template-columns: repeat(50, 50px);
+    grid-template-rows: repeat(50, 50px);
+    cursor:pointer;
+}
